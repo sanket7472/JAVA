@@ -7,7 +7,7 @@ class PasswordCheck
 		int storePass = 1234;
 		int attempt = 3;
 		int seconds = 5000;
-		outerloop:
+		outerloop: //label
 		for (; ; )
 		{
 			do
