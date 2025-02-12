@@ -9,7 +9,7 @@ class PrimeNumInRange {
         int start = scanner.nextInt();
         System.out.print("Enter the ending number: ");
         int end = scanner.nextInt();
-		int j= 1;
+		int j= 0;
         
         System.out.println("Prime numbers between " + start + " and " + end + " are:");
         
