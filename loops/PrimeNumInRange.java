@@ -1,14 +1,13 @@
 import java.util.Scanner;
-
 class PrimeNumInRange {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         
         // Get range from user
         System.out.print("Enter the starting number: ");
-        int start = scanner.nextInt();
+        int start = sc.nextInt();
         System.out.print("Enter the ending number: ");
-        int end = scanner.nextInt();
+        int end = sc.nextInt();
 		int j= 0;
         
         System.out.println("Prime numbers between " + start + " and " + end + " are:");
