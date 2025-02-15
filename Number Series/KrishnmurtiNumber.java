@@ -13,6 +13,6 @@ class KrishnmurtiNumber
 				fact *=j;
 			sum += fact;
 		}
-		System.out.print(sum==num?num+" is A Krish Number":num+" Not a krish number");
+		System.out.print(sum==num?num+" is A Krishnmurti Number":num+" Not a krishnmurti number");
 	}
 }
