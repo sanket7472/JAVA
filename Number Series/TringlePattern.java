@@ -2,7 +2,7 @@ class TringlePattern
 {
 	public static void main(String[] args) 
 	{
-		System.out.println(" upper left right ange tringle");
+		System.out.println(" 1) upper left right ange tringle");
 		for (int i = 1;i<=5 ;i ++)
 		{
 			// Space
@@ -17,7 +17,7 @@ class TringlePattern
 			System.out.println();
 		}
 		System.out.println();
-		System.out.println(" lower left right ange tringle");
+		System.out.println(" 2) lower left right ange tringle");
 		for (int i = 5;i>=1 ;i --)
 		{
 			// Space
@@ -32,7 +32,7 @@ class TringlePattern
 			System.out.println();
 		}
 		System.out.println();
-		System.out.println("upper right right angle tringle");
+		System.out.println("3) upper right right angle tringle");
 		for (int i = 1;i<=5 ;i++)
 		{
 			// Space
@@ -47,7 +47,7 @@ class TringlePattern
 			System.out.println();
 		}
 		System.out.println();
-		System.out.println("lower  left right angle tringle");
+		System.out.println("4) lower  left right angle tringle");
 		for (int i = 5;i>=1 ;i --)
 		{
 			// Space
@@ -62,7 +62,7 @@ class TringlePattern
 			System.out.println();
 		}
 		System.out.println();
-		System.out.println("normal vertical tringle");
+		System.out.println("5) normal vertical tringle");
 		for (int i = 1;i<=5 ;i++)
 		{
 			// Space
@@ -76,7 +76,7 @@ class TringlePattern
 			}
 			System.out.println();
 		}
-		System.out.println("inverted  tringle");
+		System.out.println("6) inverted  tringle");
 		for (int i = 5;i>=1 ;i--)
 		{
 			// Space
@@ -90,5 +90,6 @@ class TringlePattern
 			}
 			System.out.println();
 		}
+		
 	}
 }
