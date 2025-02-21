@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class FascinatingNumber 
 {
-	// facinating number check using string
+	// fascinating number check using string
 	public static void main(String[] args) 
 	{
 		System.out.print("Enter Number : ");
