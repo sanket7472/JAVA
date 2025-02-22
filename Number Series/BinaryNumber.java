@@ -8,7 +8,7 @@ class BinaryNumber
 		int num =  new Scanner(System.in).nextInt();    // 192;
 		String bin ="";
 		for (int i = num;i>0 ;i/=2 )
-		{
+		{                                                                                                                                                                                        
 			bin = i%2 + bin;
 			 
 		}
