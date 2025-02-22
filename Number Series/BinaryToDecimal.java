@@ -7,7 +7,7 @@ class BinaryToDecimal
 		// if we tried an input as int type 
 		// number is treated as a decimal number
 		// Integer.parseInt() not supports to convert decimal to decimal
-		// thats why we are taking input as a string
+		// thats why we are taking input asbg. a string
 
 
 		System.out.print("Enter a  binary number : " );
