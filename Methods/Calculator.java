@@ -3,7 +3,7 @@ class Calculator {
 
 	// method perform addition operation
 	public static void add(int a , int b) {
-		System.out.println("Addition is "+a +" and "+b+" is : "+(a+b));
+		System.out.println("Addition of "+a +" and "+b+" is : "+(a+b));
 	}
 	// method perform substraction operation
 	public static void substract(int a , int b) {
@@ -25,6 +25,7 @@ class Calculator {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("-----> WELCOME <-----");
+		
 		Home : 
 		for (; ; ) {
 		
