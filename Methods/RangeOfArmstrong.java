@@ -11,9 +11,7 @@ class RangeOfArmstrong  {
 			System.out.print(i + "  ");
 		}
 		}
-		if (isArmstrong(153)) {
-			System.out.println("Armstrong Number");
-		}
+		
 	}
 	
 	public static boolean isArmstrong(int num){
