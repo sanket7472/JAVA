@@ -14,26 +14,16 @@ class FibonacciFromRange {
 	public static void fibonacii(int start ,int end )
 	{
 		int fnum = 0;
-		if (start==0) 
-		{
-			System.out.print(fnum +"  ");		
-		}
 		int snum = 1;
-		if (start<=1) 
-		{
-			System.out.print(snum +"  ");
-		}
-		int nxtnum = 0;
 		do 
 		{  
-			if (nxtnum>=start) {
-				System.out.print(nxtnum +"  ");
+			if (fnum>=start) {
+				System.out.print(fnum +"  ");
 			}
-			nxtnum = fnum + snum;
+			int nxtnum = fnum + snum;
 			fnum = snum;
 			snum = nxtnum;
-			
-		}while(nxtnum<=end);
+		}while(fnum<=end);
 		
 	
 	}
