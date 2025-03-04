@@ -29,20 +29,12 @@ class FibonacciFromRange {
 			if (nxtnum>=start) {
 				System.out.print(nxtnum +"  ");
 			}
-			 nxtnum = fnum + snum;
+			nxtnum = fnum + snum;
 			fnum = snum;
 			snum = nxtnum;
 			
 		}while(nxtnum<=end);
-		/*
-		for (int nxtnum = 0;nxtnum<=end ; )
-		{
-			nxtnum = fnum+snum;
-			if (nxtnum>=start) {
-				System.out.print(nxtnum +"  ");
-			}
-			fnum = snum;
-			snum = nxtnum;
-		}*/
+		
+	
 	}
 }
