@@ -6,8 +6,9 @@ class RotateNum  {
 	public static void main(String[] args) {
 		int num = 12345;
 		int rot = rotate(num);
-	//System.out.println(rot);
+	
 		do{
+
 			System.out.println(rot);
 			  rot = rotate(rot);
 			
