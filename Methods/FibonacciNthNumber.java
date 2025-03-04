@@ -8,21 +8,13 @@ class FibonacciNthNumber {
 	public static int nthNumFromFibonacii(int num)
 	{
 		int fnum = 0;
-		if (num==1) {
-			return 0;
-		}
 		int snum = 1;
-		if (num==2||num==3) {
-			return 1;
-		}
-		int nxtnum=0;
-		
-		for (int i = 3;i<=num ;i++ )
+		for (int i = 1;i<num ;i++ )
 		{
-			nxtnum = fnum+snum;
+			int nxtnum = fnum+snum;
 			fnum = snum;
 			snum = nxtnum;
 		}
-		return nxtnum ;
+		return fnum ;
 	}
 }
