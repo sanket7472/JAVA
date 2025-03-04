@@ -10,13 +10,11 @@ class Fibonacci {
 	public static void fibonacii(int num)
 	{
 		int fnum = 0;
-		System.out.print(fnum +"  ");
 		int snum = 1;
-		System.out.print(snum +"  ");
-		for (int i = 2;i<num ;i++ )
+		for (int i = 0;i<num ;i++ )
 		{
 			int nxtnum = fnum+snum;
-			System.out.print(nxtnum +"  ");
+			System.out.print(fnum +"  ");
 			fnum = snum;
 			snum = nxtnum;
 		}
