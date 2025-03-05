@@ -8,9 +8,15 @@ class Factorial{
 	}
 	public static int fact(int num)
 	{
+		// normal way
+		/*
 		if (num == 1) {
 			return 1;
 		}
 		return num * fact(num-1);
+		*/
+
+		// optimize way 
+		return num==1 ? 1 : num * fact(num-1);
 	}
 }

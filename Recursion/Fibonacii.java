@@ -11,8 +11,5 @@ class Fibonacii{
 		System.out.print(n1+ "  ");
 		int n3 = n2+n1;
 		fibo(--num , n2 , n3);
-	
-	
 	}
-
 }
