@@ -10,13 +10,14 @@ class Power {
 	}
 	public static int power (int num , int pow)
 	{
-		// first way 
+		// normal way 
 		/*if (pow==0)
 		{
 			return 1;
 		}
-		return num * (power(num , --pow));*/
-		// second optimize way
+		return num * (power(num , --pow));
+		*/
+		//optimize way
 		return pow == 0 ? 1 : num * (power(num , --pow));
 	}
 }
