@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class Power 
-{
+{// this code helps the user to find the nth power of number
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
