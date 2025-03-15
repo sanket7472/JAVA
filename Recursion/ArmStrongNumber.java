@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class ArmStrongNumber 
-{
+{// this code is able to find Armstrong number in recursive way
 	public static void main(String[] args) 
 	{
 		System.out.print("Enter number : ");
