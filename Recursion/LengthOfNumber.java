@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class LengthOfNumber 
-{
+{// this code hepls for finding length of a number
 	public static void main(String[] args) 
 	{
 		System.out.print("Enter number : " );
