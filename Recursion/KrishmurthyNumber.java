@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class KrishmurthyNumber
-{
+{ //this code helps user to chech specific number is Krishnmurthy number
 	public static void main(String[] args) 
 	{
 		System.out.print("Enter number : ");
