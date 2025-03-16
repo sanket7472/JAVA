@@ -1,5 +1,5 @@
 class Fibonacii{
-
+// this code helps to find first n numbers from Fibonacci series
 	public static void main(String[] args) {
 		fibo(20 , 0 ,1);
 	}
