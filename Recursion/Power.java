@@ -1,5 +1,6 @@
 import java.util.Scanner;
 class Power {
+	//this code helps to find power of number
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter number : ");
