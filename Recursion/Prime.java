@@ -1,5 +1,6 @@
 import java.util.Scanner;
 class Prime{
+	// this code hepls user to find the entered number is prime or not
 	public static void main(String[] args) {
 		System.out.print("Enter number to check : ");
 		int num = new Scanner(System.in).nextInt();
