@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class Emirp 
 {
+	// emirp prime number is a number prime from reverse and straight
 	public static void main(String[] args) 
 	{
 		System.out.print("Enter number : ");
