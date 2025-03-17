@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class ReverseNumber 
 {
+	// this code make the user entered number reverse
 	public static void main(String[] args) 
 	{
 		System.out.print("Enter number : ");
