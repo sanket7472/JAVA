@@ -1,5 +1,6 @@
 class SumOfFactorial 
 {
+	//  this code return sim of factorials of all digits from number
 	public static void main(String[] args) 
 	{
 		System.out.println(sum(145 , 0));
