@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class SumOfDigits 
 {
+	// this code returns the sum of all the digits from a numbe
 	public static void main(String[] args) 
 	{
 		System.out.print("Enter number : " );
