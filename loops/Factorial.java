@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class Factorial 
 {
+	//this code returns sum of factorial of even digits and odd digits from a number
 	public static void main(String[] args) 
 	{
 		System.out.print("enter number : ");
