@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class EvenSum 
 {
+	// This code returns sum of even digits from number.
 	public static void main(String[] args) 
 	{
 		System.out.println("Enter the number : ");
