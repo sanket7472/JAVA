@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class GoodPrimeNumber 
 {
+	// Good prime numbers are the prime numbers Which having all the digits are prime 
 	public static void main(String[] args) 
 	{
 		System.out.print("Enter a Start : ");
