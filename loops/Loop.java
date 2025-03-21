@@ -1,6 +1,7 @@
 class Loop
 
 {
+	// this code is written for practecing loops
 	public static void main(String[] args) 
 	{
 		System.out.println("Print numbers 1 to 10");
