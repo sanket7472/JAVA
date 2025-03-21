@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class LettersOfName 
 {
+	//This code returns all the letters from name one bye one
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
