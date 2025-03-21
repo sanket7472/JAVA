@@ -1,5 +1,6 @@
 class FrequencyNumber 
 {
+	//this code help to count the digit reptation from number
 	public static void main(String[] args) 
 	{
 		
