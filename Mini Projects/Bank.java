@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class Bank 
 {
+	//Shoeing the functionality of bank
     public static void main(String[] args) 
     {
 		Scanner sc = new Scanner(System.in);
