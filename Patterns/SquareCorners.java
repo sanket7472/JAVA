@@ -1,5 +1,6 @@
 class SquareCorners 
 {
+	//This Pattern shows the four squares at the edge of middle square
 	public static void main(String[] args) 
 	{
 		int n = 15;
