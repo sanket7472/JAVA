@@ -12,6 +12,14 @@ class CarDriver
 		c1.cc = 2184;
 		c1.seats = 5;
 
-		c1.carDetails();
+	
+
+		carCompany();
+		carFuel();
+		carPrice();
+		carModel();
+		carMileage();
+		carCC();
+		carSeats();
 	}
 }
