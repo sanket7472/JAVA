@@ -1,5 +1,6 @@
 class StatVar2 
 {
+	// learning the execution of static variable through out the class block
 	static double balance;
 	public static void main(String[] args) 
 	{
