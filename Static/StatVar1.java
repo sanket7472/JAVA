@@ -1,5 +1,6 @@
 class StatVar1 
 {
+	// defining a static variable and printing the default values
 	static int a;
 	public static void main(String[] args) 
 	{
