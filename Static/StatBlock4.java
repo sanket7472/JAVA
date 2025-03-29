@@ -3,6 +3,8 @@ class StatBlock4
 	static double d;
 	static
 	{
+		// all the methods called in static block 
+		// are executed before the main method 
 		d = test(100);
 		System.out.println("1 :"+d);
 		d = test(d) + demo((int)d);
