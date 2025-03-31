@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class Fibonacci 
 {
+	// this code is written for getting first few number from fibonacii number range
 	public static void main(String[] args) 
 	{
 		System.out.print("How many numbers you want to print : ");
