@@ -12,6 +12,7 @@ class ReverseNumber
 	public static int reverse(int num , int rev )
 	{
 		/*
+  // this method is designed for reverse a number
 		// normal method
 		if (num == 0)
 		{
