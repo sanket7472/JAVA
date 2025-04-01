@@ -1,5 +1,6 @@
 import java.util.Scanner;
 class Factorial{
+	//finding factorial of a number using recursive way
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter number : ");
