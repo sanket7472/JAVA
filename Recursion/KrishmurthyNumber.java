@@ -14,6 +14,7 @@ class KrishmurthyNumber
 	}
 	public static boolean isKrishnmurthy(int num )
 	{
+		// Krishnmurthy number is number which is made by adding factorial of each and every digit from the number
 		int sum = sum(num , 0);
 		return sum==num ? true : false ;
 	}
