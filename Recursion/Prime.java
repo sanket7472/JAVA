@@ -12,6 +12,7 @@ class Prime{
 	}
 	public static boolean isPrime(int num , int den )
 	{
+		// this method can only return true or false
 		//normal method 
 		/*if (den == num/2) {
 			return true;
