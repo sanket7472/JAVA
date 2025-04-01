@@ -14,6 +14,7 @@ class PalindromeNumber
 	}
 	public static boolean isPalindrome(int num)
 	{
+		// this method is desined for finding the number is palindrome or not
 		int rev = reverse(num , 0);
 		return num == rev ?true : false;
 	}
