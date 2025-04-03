@@ -4,6 +4,7 @@ class Book
 	int price;
 	int pages;
 	String type;
-	public static void main(String [] args)
+	
+	Book()
 	{}
 }
