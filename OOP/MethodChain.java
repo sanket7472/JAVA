@@ -4,6 +4,8 @@ class MethodChain
 	String type;
 	int price;
 
+	MethodChain()
+	{}
 	public MethodChain price()
 	{
 		System.out.println(price);
