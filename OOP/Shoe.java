@@ -8,6 +8,7 @@ class Shoe
 	String color;
 	String type;
 
+	
 	{
 		// here this non static block is used to give the value of price for each and every shoe
 		if (brand.charAt(0) == 'N')
@@ -20,6 +21,10 @@ class Shoe
 			price = 500;
 
 		}
+	}
+	// constructor added ( no argumented constructor )
+	Shoe()
+	{
 	}
 	public void shoeDetails()
 	{
