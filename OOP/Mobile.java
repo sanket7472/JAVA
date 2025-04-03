@@ -6,7 +6,9 @@ class Mobile
 	short rom;
 	int price;
 	int numOfCameras;
-
+	
+	Mobile()
+	{}
 	public void showMobile()
 	{
 		System.out.println(brand);
