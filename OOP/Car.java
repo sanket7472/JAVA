@@ -8,6 +8,9 @@ class Car
 	int cc;
 	int seats;
 
+
+	Car()
+	{}
 	public void carCompany()
 	{
 		System.out.println("Company : "+company);
