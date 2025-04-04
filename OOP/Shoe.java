@@ -26,6 +26,13 @@ class Shoe
 	Shoe()
 	{
 	}
+	// parameterized constructor
+	Shoe(int size, String color, String type)
+	{
+		this.size = size;
+		this.color = color;
+		this.type = type;
+	}
 	public void shoeDetails()
 	{
 		
