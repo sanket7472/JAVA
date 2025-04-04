@@ -21,4 +21,7 @@ class Methods
 		System.out.println("From fourth method");
 		return this;
 	}
+	// no argumented constructor added
+
+	Methods(){}
 }
