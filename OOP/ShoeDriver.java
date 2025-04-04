@@ -9,5 +9,10 @@ class ShoeDriver
 		s1.color = "Grey";
 
 		s1.shoeDetails();
+		System.out.println("--------------------------------");
+
+		// calling a parameterized constructor
+		Shoe s2 = new Shoe(10 , "Blue ", "Sports");
+		s2.shoeDetails();
 	}
 }
