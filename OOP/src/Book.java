@@ -5,6 +5,8 @@ class Book
 	int pages;
 	String type;
 	
+	// no argumented constructor added 
+	// this is programmers duty to add no argumented constructor
 	Book()
 	{}
 }
