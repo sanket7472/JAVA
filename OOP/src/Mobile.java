@@ -7,6 +7,7 @@ class Mobile
 	int price;
 	int numOfCameras;
 	
+	// no argument constructor
 	Mobile()
 	{}
 	public void showMobile()
