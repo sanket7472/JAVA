@@ -6,9 +6,11 @@ class Student
 	String degree;
 	int roll;
 
+	//no argument constructor
 	Student(){
 		System.out.println(" From No argumented constructor ");
 	}
+	// parameterized constructor
 	Student(String name,int age, String coll, String degree, int roll){
 		this.name = name;
 		this.age = age;
