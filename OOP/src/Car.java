@@ -8,7 +8,9 @@ class Car
 	int cc;
 	int seats;
 
-
+	// no argumented constructor added 
+	// this is programmers duty to add no argumented constructor
+	
 	Car()
 	{}
 	public void carCompany()
