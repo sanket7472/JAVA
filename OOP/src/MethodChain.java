@@ -3,7 +3,9 @@ class MethodChain
 	String origin;
 	String type;
 	int price;
-
+	// implemented method chaining 
+	// in this method is compulsory to return the referance of object
+	// here this keyword is use to return the reference
 	MethodChain()
 	{}
 	public MethodChain price()
