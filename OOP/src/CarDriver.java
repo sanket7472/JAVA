@@ -2,6 +2,7 @@ class CarDriver
 {
 	public static void main(String[] args) 
 	{
+		// creating object using no argument constructor
 		Car c1 = new Car();
 
 		c1.company = "Mahendra";
@@ -13,7 +14,7 @@ class CarDriver
 		c1.seats = 5;
 
 	
-
+		// calling the method for performing actions
 		carCompany();
 		carFuel();
 		carPrice();
