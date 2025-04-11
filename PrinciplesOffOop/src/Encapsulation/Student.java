@@ -2,6 +2,7 @@ package Encapsulation;
 
 public class Student {
 
+	
 	private String name;
 	private String age;
 	private int roll;
@@ -43,6 +44,20 @@ public class Student {
 	}
 	 public String getDob() {
 		return dob;
+	}
+	 public void setPhno(String name, long phno , long newPhno) {
+		this.phno = newPhno;
+	}
+	 
+	 public void getStudentDetails() {
+		
+		 System.out.println(" Name : "+this.getName());
+		 System.out.println(" Age : "+this.getAge());
+		 System.out.println(" Roll No. : "+this.getRoll());
+		 System.out.println(" Year of study  : "+this.getYearOfStudy());
+		 System.out.println(" Gender  : "+this.getGen());
+		 System.out.println(" Phone Number  : "+this.getPhno());	
+		 System.out.println(" Date Of Birth  : "+this.getDob());	
 	}
 	
 	
