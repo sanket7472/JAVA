@@ -20,5 +20,6 @@ public class Refill {
 		System.out.println(color);
 		System.out.println(type);
 		System.out.println(size);
+		System.out.println("Refill Created ");
 	}
 }
