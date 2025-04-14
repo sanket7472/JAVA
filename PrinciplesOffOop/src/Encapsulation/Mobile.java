@@ -6,7 +6,8 @@ public class Mobile {
 	String model;
 	double price;
 	int ram;
-	int rom; // extendible
+	int rom;// extendible
+	Sim s;
 	
 	
 	public Mobile(String brand,String model, double price, int ram, int rom) {
@@ -44,5 +45,10 @@ public class Mobile {
 		} else {
 			System.out.println("Invalid Credentials ");
 		}
+	}
+	public void insertSim(String serviceProvider,String network, String type, long mobNo) {
+		
+		s = new Sim(serviceProvider, network, type, mobNo);
+		System.out.println("Sim Inserted....");
 	}
 }
