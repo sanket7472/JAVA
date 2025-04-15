@@ -48,7 +48,7 @@ public class Student {
 	 public void setPhno(String name, long phno , long newPhno) {
 		this.phno = newPhno;
 	}
-	 
+	
 	 public void getStudentDetails() {
 		
 		 System.out.println(" Name : "+this.getName());
