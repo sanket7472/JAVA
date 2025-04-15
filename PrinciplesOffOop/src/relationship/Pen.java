@@ -36,4 +36,17 @@ public class Pen {
 		this.type = penType;
 	}
 	
+	public String getBrand() {
+		return brand;
+	}
+	
+	public double getPrice() {
+		return price;
+	}
+	
+	public String getType() {
+		return type;
+	}
+	
+	
 }
