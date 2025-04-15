@@ -15,11 +15,19 @@ public class Refill {
 	}
 	
 
-
+	public String getColor() {
+		return color;
+	}
+	public String getType() {
+		return type;
+	}
+	public double getSize() {
+		return size;
+	}
 	public void getRefill() {
-		System.out.println(color);
-		System.out.println(type);
-		System.out.println(size);
+		System.out.println(getColor());
+		System.out.println(getType());
+		System.out.println(getSize());
 		System.out.println("Refill Created ");
 	}
 }
