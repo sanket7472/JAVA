@@ -20,7 +20,7 @@ class ArmstrongNumber
 					pow *= rem;
 				}
 				sum += pow;
-				num/=10;
+				//num/=10;
 			}
 			System.out.print(
 				dup==sum?dup+" is a Armstrong number"
