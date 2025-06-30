@@ -34,6 +34,11 @@ public class DivideByZero {
 			catch (Throwable e) {
 				System.exit(0);
 			}
+			
+			finally {
+				System.out.println("Thank you.....!");
+				
+			}
 		}
 		
 	}
