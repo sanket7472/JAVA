@@ -1,4 +1,6 @@
-class CarDriver 
+package OOP;
+
+public class CarDriver 
 {
 	public static void main(String[] args) 
 	{
@@ -13,14 +15,5 @@ class CarDriver
 		c1.cc = 2184;
 		c1.seats = 5;
 
-	
-		// calling the method for performing actions
-		carCompany();
-		carFuel();
-		carPrice();
-		carModel();
-		carMileage();
-		carCC();
-		carSeats();
 	}
 }
