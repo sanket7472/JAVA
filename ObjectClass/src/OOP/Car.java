@@ -1,4 +1,6 @@
-class Car 
+package OOP;
+
+public class Car 
 {
 	String company;
 	String fuel;
