@@ -1,4 +1,6 @@
-class Book 
+package OOP;
+
+public class Book 
 {
 	String brand;
 	int price;
