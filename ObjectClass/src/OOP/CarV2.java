@@ -1,4 +1,6 @@
-class CarV2
+package OOP;
+
+public class CarV2
 {
 	 
 	 String model;
