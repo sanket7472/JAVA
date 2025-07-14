@@ -6,9 +6,9 @@ public class AddArrayInArray {
 
 	public static void main(String[] args) {
 		
-		int ar1[] = {10,20};
-		int [] ar2 = {32};
-		System.out.println(Arrays.toString(addArrayToIdx(ar1, ar2, 1)));
+		int ar1[] = {10,20,30,40,50,60};
+		int [] ar2 = {32,34,36,38};
+		System.out.println(Arrays.toString(addArrayToIdx(ar1, ar2, 3)));
 	}
 	public static int[] addArrayToIdx(int[]ar1,int[]ar2,int idx) {
 		
@@ -27,6 +27,7 @@ public class AddArrayInArray {
 						ans[i] = ar2[j];
 						i++;
 					}
+					ans[i] = ar1[i-ar2.length];
 				}else 
 				{
 					ans[i] = ar1[i-ar2.length];
