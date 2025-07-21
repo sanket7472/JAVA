@@ -1,4 +1,6 @@
-class Form1 
+package OOP;
+
+public class Form1 
 
 {
 	// this code is written to explain constructor Chaining
