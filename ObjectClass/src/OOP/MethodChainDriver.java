@@ -1,4 +1,6 @@
-class MethodChainDriver 
+package OOP;
+
+public class MethodChainDriver 
 {
 	public static void main(String[] args) 
 	{
