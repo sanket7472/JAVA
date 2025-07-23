@@ -1,4 +1,6 @@
-class Methods
+package OOP;
+
+public class Methods
 {
 	// learning about method chaining
 	public Methods m1()
