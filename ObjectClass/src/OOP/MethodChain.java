@@ -1,4 +1,6 @@
-class MethodChain 
+package OOP;
+
+public class MethodChain 
 {
 	String origin;
 	String type;
