@@ -1,4 +1,6 @@
-class NonStatState
+package OOP;
+
+public class NonStatState
 {
 	
 		String brand = "Nike";
