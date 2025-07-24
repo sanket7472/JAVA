@@ -1,4 +1,6 @@
-class MethodsDriver 
+package OOP;
+
+public class MethodsDriver 
 {
 	public static void main(String[] args) 
 	{
