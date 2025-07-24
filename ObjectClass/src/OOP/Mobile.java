@@ -1,4 +1,6 @@
-class Mobile 
+package OOP;
+
+public class Mobile 
 {
 	String brand;
 	String model;
