@@ -1,4 +1,6 @@
-class Shoe 
+package OOP;
+
+public class Shoe 
 {
 	// here we are setting the shoe price before the execution
 
