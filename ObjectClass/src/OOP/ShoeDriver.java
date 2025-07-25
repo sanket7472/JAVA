@@ -1,4 +1,6 @@
-class ShoeDriver 
+package OOP;
+
+public class ShoeDriver 
 {
 	public static void main(String[] args) 
 	{
