@@ -6,7 +6,7 @@ public class Student1Driver {
 		
 		Student1 s1 = new Student1();
 		
-//		s1.averageMarks();
+		s1.averageMarks();
 //		
 //		System.out.println("-----------------------------");
 //		Student1 s2 = new Student1();
