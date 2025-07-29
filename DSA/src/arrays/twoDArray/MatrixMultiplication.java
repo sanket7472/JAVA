@@ -7,16 +7,15 @@ public class MatrixMultiplication {
 	public static void main(String[] args) {
 		
 		int [][]a = {
-				{10,20,30,40},
-				{10,20,30,40},
-				{10,20,30,40},
-				{10,20,30,40}
+				{1,2,3},
+				{4,5,6},
+				{7,8,9}
 		};
 		int [][]b = {
-				{10,20,30,40},
-				{10,20,30,40},
-				{10,20,30,40},
-				{10,20,30,40}
+				{1,2,3},
+				{4,5,6},
+				{7,8,9}
+				
 		};
 		
 		int [][] mul = multiply(a, b);
@@ -26,13 +25,13 @@ public class MatrixMultiplication {
 	}
 	public static int[][] multiply(int[][]a,int[][]b){
 		
-		int [][] c= new int [a.length][a.length];
+		int [][] c= new int [a.length][a[0].length];
 		
-		  for (int i = 0; i < 4; i++) { // rows of a
-	            for (int j = 0; j < 4; j++) { // columns of b
-	                                                                                                     for (int k = 0; k < 4; k++) { // common dimension
-	                    c[i][j] += a[i][k] * b[k][j];
-	                }
+		  for (int i = 0; i < a.length; i++) { 
+	            for (int j = 0; j < a.length; j++) {
+	                   for (int k = 0; k < c.length; k++) {
+	                	   c[i][j] += a[i][k] * b[k][j];
+					}                                                                                 
 	            }
 	        }
 		return c;
