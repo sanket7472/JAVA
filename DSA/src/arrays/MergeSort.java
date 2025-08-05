@@ -30,7 +30,7 @@ public class MergeSort {
 
 		
 		int [] ans = new int [a.length];
-		int i = start,j=mid+1,k=start;.
+		int i = start,j=mid+1,k=start;
 		
 		while (i<=mid && j <= end) {
 			
