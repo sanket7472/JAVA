@@ -2,9 +2,8 @@ package strings;
 
 public class CheckSubString {
 		public static void main(String[] args) {
-			
-			String str = "malayalam";
-			System.out.println(containsOf(str, "layal"));
+			String str = "ssspss";
+			System.out.println(contains(str, "sspss"));
 		}
 //		METHODS
 		
@@ -42,6 +41,30 @@ public class CheckSubString {
 			else {
 				return false;
 			}
+		}
+		
+		public static boolean contains(String s, String t) {
+			
+			int check =0;
+			for (int i = 0; i < s.length(); i++) {
+				
+				if(check<t.length() && s.charAt(i)==t.charAt(check)) {
+					check++;
+				//	System.out.println(check);
+				}
+				else {
+					if (check==t.length()){
+						System.out.println(check);
+						return true;
+					}
+					else if(check>0){
+						i-=check;
+						check=0;
+					}
+				}
+			}
+			return false;
+			
 		}
 		
 		
