@@ -4,7 +4,7 @@ public class StringLength {
 
 	public static void main(String[] args) {
 		
-		String s = "I Love India";
+		String s = "a";
 		System.out.println(s.length());// built in method
 		System.out.println(length(s));// clone method without built-in methods
 		
