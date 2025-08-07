@@ -6,7 +6,7 @@ public class RetainOccerances {
 
 	public static void main(String[] args) {
 		
-		int[] arr = {10,20};
+		int[] arr = {10,20,10,10};
 		System.out.println(Arrays.toString(retainOcc(arr)));
 	}
 	
