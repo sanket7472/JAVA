@@ -26,8 +26,7 @@ public class Anagram2 {
 		s2 = s2.replace(" ", "");
 		if (s1.length()==s2.length()) {
 			
-			int [] str1 = new int[128];
-			int [] str2 = new int[128];
+			
 			
 			for (int i = 0; i < s1.length(); i++) {
 				str1[s1.charAt(i)]++;
