@@ -15,7 +15,7 @@ public class EmailValidation {
 			if (!(ch>='a'&& ch<='z'||ch>='0'&&ch<='9'||ch=='.')) {
 				return false;
 			}
-		
+		}
 		int i;
 		for ( i= 0; i < s.length(); i++) {
 			if (s.charAt(i)=='@') {
