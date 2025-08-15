@@ -10,11 +10,7 @@ public class EmailValidation {
 		if (!(s.charAt(0)>='a'&& s.charAt(0)<='z')) {
 			return false;
 		}
-		for (int i = 1; i < s.length()-10; i++) {
-			char ch = s.charAt(i);
-			if (!(ch>='a'&& ch<='z'||ch>='0'&&ch<='9'||ch=='.')) {
-				return false;
-			}
+		
 		}
 		int i;
 		for ( i= 0; i < s.length(); i++) {
