@@ -25,7 +25,7 @@ public class DivideByZero {
 				System.out.println(ans);
 			}
 			catch (InputMismatchException e) {
-				sc.nextLine();
+				//sc.nextLine();
 				System.out.println("Only int data is allowed ");
 			} 
 			catch (ArithmeticException e) {
