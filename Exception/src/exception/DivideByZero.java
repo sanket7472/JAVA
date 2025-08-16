@@ -29,7 +29,7 @@ public class DivideByZero {
 				System.out.println("Only int data is allowed ");
 			} 
 			catch (ArithmeticException e) {
-				//System.out.println("Cant divide by zero");
+				System.out.println("Cant divide by zero");
 			}
 			catch (Throwable e) {
 				System.exit(0);
