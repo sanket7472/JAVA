@@ -8,7 +8,7 @@ public class DivideByZero {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int numerator=0;
-		int denomina = 0;
+		int denominator = 0;
 		
 		while (true) {
 			try {
