@@ -6,7 +6,7 @@ public class ContainsOf {
 
 		
 	}
-	public static boolean contains(String s,String t) {
+	public static boolean contain(String s,String t) {
 		
 		
 	}
