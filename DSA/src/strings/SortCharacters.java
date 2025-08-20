@@ -14,8 +14,7 @@ public class SortCharacters {
 					byte temp = ans[j];
 					ans[j]=ans[j+1];
 					ans[j+1]=temp;
-				} 
-				
+				}
 			}
 		}
 		return new String(ans);
