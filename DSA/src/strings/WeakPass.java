@@ -16,7 +16,7 @@ public class WeakPass {
 			boolean pass = true;
 			int len = ar[i].length();
 			if (len<6) {
-				ans[i]="Weak";
+				ans[i]=" Weak ";
 				pass = false;
 			}else {
 				int low=0,upp=0,digit=0;
