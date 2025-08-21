@@ -22,7 +22,6 @@ public class RemoveDuplicates {
 					}
 				}
 			}
-			
 		}
 		return count;
 	}
