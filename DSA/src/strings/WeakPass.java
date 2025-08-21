@@ -18,6 +18,7 @@ public class WeakPass {
 			if (len<6) {
 				ans[i]=" Weak ";
 				pass = false;
+				
 			}else {
 				int low=0,upp=0,digit=0;
 				for (int j=0; j < len; j++) {
