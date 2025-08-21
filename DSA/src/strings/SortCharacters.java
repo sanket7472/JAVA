@@ -3,7 +3,7 @@ package strings;
 public class SortCharacters {
 
 	public static void main(String[] args) {
-		String s = "sanket";
+		String s = "India";
 		System.out.println(sort(s));
 	}
 	public static String sort(String s) {
