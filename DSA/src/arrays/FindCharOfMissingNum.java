@@ -1,7 +1,5 @@
 package arrays;
 
-import java.util.Arrays;
-
 public class FindCharOfMissingNum {
 
 	public static void main(String[] args) {
@@ -14,7 +12,6 @@ public class FindCharOfMissingNum {
 		int[]cnt = new int[ar.length] ;
 		int j=0;
 		while (j<cnt.length) {
-			
 			int num = ar[j];
 			//System.out.println(j+"  "+ar[j]);
 			cnt[num-1]++;
