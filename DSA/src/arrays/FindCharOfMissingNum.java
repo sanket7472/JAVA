@@ -25,6 +25,7 @@ public class FindCharOfMissingNum {
 			}
 			i++;
 		}
+		
 		return (char)(i+65);
 	}
 	public static char returnCharOfMissPos(int[]ar) {
