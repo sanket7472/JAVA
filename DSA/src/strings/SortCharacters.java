@@ -15,7 +15,6 @@ public class SortCharacters {
 					ans[j]=ans[j+1];
 					ans[j+1]=temp;
 				}
-				
 			}
 		}
 		return new String(ans);
