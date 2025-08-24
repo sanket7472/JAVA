@@ -98,6 +98,9 @@ public class PlayList {
 		}
 		return false;
 	}
+	public void shuffle() {
+		
+	}
 	
 	
 	
