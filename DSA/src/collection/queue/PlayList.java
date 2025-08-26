@@ -35,7 +35,7 @@ public class PlayList {
 	public void showPlaylist() {
 		if (count>0) {
 			for (int i = 0; i < count; i++) {
-				System.out.println(songs[i]);
+				System.out.println(songs[i].getName());
 			}
 		}
 		else {
