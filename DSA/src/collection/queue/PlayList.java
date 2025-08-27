@@ -1,6 +1,7 @@
 package collection.queue;
 
 import java.util.Arrays;
+import java.util.Iterator;
 
 public class PlayList {
 
@@ -111,6 +112,33 @@ public class PlayList {
 				i--;
 			}
 		}
+	}
+	
+	public void playNext(String name,String movie) {
+		
+		int idx = searchSong(name, movie);
+		if (idx==0) {
+			System.out.println(name + " Is Playing ");
+		}else if (idx==1) {
+			System.out.println(name +" will play next ");
+		}else if (idx>1) {
+			for (int i = idx;i>1; i--) {
+				Song temp = songs[i];
+				songs[i] = songs[i-1];
+				songs[i-1]=temp;
+			}
+		}else {
+			System.out.println(name+" Not found in the playlist");
+		}
+	}
+	private int searchSong(String name,String movie) {
+		int i;
+		for (i = 0; i < count; i++) {
+			if (songs[i].getName().equalsIgnoreCase(name)&&songs[i].getMovie().equalsIgnoreCase(movie)) {
+				return i;
+			}
+		}
+		return -1;
 	}
 	
 	
