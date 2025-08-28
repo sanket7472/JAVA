@@ -8,6 +8,10 @@ public class LinkedList {
 	public LinkedList() {
 		super();
 	}
+	public Node iterate()
+	{
+		return head;
+	}
 	
 	public boolean addNode(Object val) {
 		if (head==null) {
@@ -31,26 +35,26 @@ public class LinkedList {
 	}
 	
 	public void removeNode(Object val) {
-	    currRef = head;
+	    Node node = iterate();
 	    boolean ele = true;
-	    while (currRef != null) {
-	        if (currRef.val.equals(val)) { 
-	            System.out.println("Removing: " + currRef.val);
+	    while (node != null) {
+	        if (node.val.equals(val)) { 
+	            System.out.println("Removing: " + node.val);
 	            ele = false;
-	            if (currRef == head) {
+	            if (node == head) {
 	                head = currRef.nxtref;
 	                if (head != null) {
 	                    head.prevRef = null;
 	                }
 	            } else {
-	                currRef.prevRef.nxtref = currRef.nxtref;
-	                if (currRef.nxtref != null) {
-	                    currRef.nxtref.prevRef = currRef.prevRef;
+	            	node.prevRef.nxtref = node.nxtref;
+	                if (node.nxtref != null) {
+	                	node.nxtref.prevRef = node.prevRef;
 	                }
 	            }
 	            break;
 	        }
-	        currRef = currRef.nxtref;
+	        node = node.nxtref;
 	    }
 	    if (ele) {
 			System.out.println(val + " Not found in List");
