@@ -13,7 +13,7 @@ public class FighterPlaneSuper extends Aeroplane {
 	public FighterPlaneSuper( String brand, double price, int engines, int years, int fuelCap, int weight, int passengerCap,
 			int gen, int noOfSeats, int range, String type, String refuelType)
 	{
-		super(brand, price, engines, years, fuelCap, passengerCap );
+		super(brand, price, engines, years, fuelCap, passengerCap, range );
 
 //		this.brand = brand;
 //		this.price = price;
