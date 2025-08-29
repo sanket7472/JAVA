@@ -12,6 +12,11 @@ public class Node {
 		super();
 		this.val = val;
 	}
-	
+	public Node next() {
+		return nxtref;
+	}
+	public Node previous() {
+		return prevRef;
+	}
 	
 }
