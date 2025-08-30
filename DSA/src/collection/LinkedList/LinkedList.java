@@ -76,7 +76,6 @@ public class LinkedList {
 	public Node containsVal(Object val) {
 		Node head = iterate();
 		while (head!=null) {
-			System.out.println(head.val+"  "+ val);
 			if (head.val.equals(val)) {
 				return head;
 			}
