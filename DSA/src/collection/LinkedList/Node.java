@@ -6,7 +6,8 @@ public class Node {
 	Node prevRef;
 	Node nxtref;
 	
-	
+	private Node() {
+	}
 	public Node(Object val) {
 		super();
 		this.val = val;
