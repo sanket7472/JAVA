@@ -11,12 +11,12 @@ public class LinkedSet extends LinkedList {
 	//addall
 	//addfist
 	//add last
-	public boolean addNode(Object val) {
-		if (!contains(val)) {
-			return super.addNode(val);
-		}
-		return false;
-	}
+//	public boolean addNode(Object val) {
+//		if (!contains(val)) {
+//			return super.addNode(val);
+//		}
+//		return false;
+//	}
 	public boolean addFirst(Object val) {
 		if (!contains(val)) {
 			return super.addFirst(val);
