@@ -39,6 +39,25 @@ public class DayFromDate {
 		int[] dateArr= {Integer.parseInt(dy),Integer.parseInt(mon),Integer.parseInt(yr)};
 		return dateArr;
 	}
+	public static String returnmonth(String mon) {
+		mon = mon.toLowerCase();
+		
+		switch (mon) {
+		case "jan": return "01";
+		case "feb": return "02";
+		case "mar": return "03";
+		case "api": return "04";
+		case "may": return "05";
+		case "jun": return "06";
+		case "jul": return "07";
+		case "aug": return "08";
+		case "sep": return "09";
+		case "oct": return "10";
+		case "nov": return "11";
+		case "dec": return "12";
+		}
+		return null;
+	}
 	public static int returnDay(int[]date) {
 
 		int centuryCode = (date[2]/100)-16;
