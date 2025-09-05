@@ -58,13 +58,5 @@ public class DayFromDate {
 		}
 		return null;
 	}
-	public static int returnDay(int[]date) {
-
-		int centuryCode = (date[2]/100)-16;
-		int sum = date[0] + monCode[date[1]-1]+cenCode[centuryCode]+(date[2]%100)+((date[2]%100)/4);
-		if (date[2]%4==0&&date[1]<=2) {
-			sum-=1;
-		}
-		return sum%7;
-	}
+	
 }
