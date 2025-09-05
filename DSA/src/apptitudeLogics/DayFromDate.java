@@ -31,14 +31,7 @@ public class DayFromDate {
 		}
 		
 	}
-	public static int[] returnDate(String date) {
-		String dy = date.substring(0, 2);
-		String mon = returnmonth(date.substring(3, 6));
-		String yr = date.substring(7, date.length());
-		
-		int[] dateArr= {Integer.parseInt(dy),Integer.parseInt(mon),Integer.parseInt(yr)};
-		return dateArr;
-	}
+	
 	public static String returnmonth(String mon) {
 		mon = mon.toLowerCase();
 		
