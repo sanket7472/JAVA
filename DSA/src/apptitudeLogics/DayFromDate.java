@@ -31,25 +31,13 @@ public class DayFromDate {
 		}
 		
 	}
-	
-	public static String returnmonth(String mon) {
-		mon = mon.toLowerCase();
+	public static int[] returnDate(String date) {
+		String dy = date.substring(0, 2);
+		String mon = returnmonth(date.substring(3, 6));
+		String yr = date.substring(7, date.length());
 		
-		switch (mon) {
-		case "jan": return "01";
-		case "feb": return "02";
-		case "mar": return "03";
-		case "api": return "04";
-		case "may": return "05";
-		case "jun": return "06";
-		case "jul": return "07";
-		case "aug": return "08";
-		case "sep": return "09";
-		case "oct": return "10";
-		case "nov": return "11";
-		case "dec": return "12";
-		}
-		return null;
+		int[] dateArr= {Integer.parseInt(dy),Integer.parseInt(mon),Integer.parseInt(yr)};
+		return dateArr;
 	}
 	public static int returnDay(int[]date) {
 
