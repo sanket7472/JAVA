@@ -18,7 +18,7 @@ public class DayFromDate {
 	
 	public static void main(String[] args) {
 		
-		String date = "29-mar-2024";
+		String date = "01-api-2001";
 		int[] dateArr = returnDate(date);
 		switch (returnDay(dateArr)) {
 		case 0: System.out.println("SUNDAY");break;
