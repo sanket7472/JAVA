@@ -2,3 +2,4 @@
 *.class
 /.metadata/
 Mini Projects/laptop/laptop/src/main/resources/application.properties
+Mini Projects/employee/src/main/resources/application.properties
