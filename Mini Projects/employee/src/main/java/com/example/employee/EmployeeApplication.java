@@ -55,9 +55,13 @@ public class EmployeeApplication {
 
     public void fetchAll(EmployeeDao theEmployeeDao){
         List<Employee> employees= theEmployeeDao.findAll();
-        for (Employee emp : employees) {
-            System.out.println(emp);
-        }
+       if (employees.size()!=0){
+           for (Employee emp : employees) {
+               System.out.println(emp);
+           }
+       }else{
+           System.out.println("No Employees in the DB");
+       }
     }
     public void updateById(EmployeeDao theEmployeeDao){
         System.out.println("Enter the Employee id : ");
@@ -72,24 +76,31 @@ public class EmployeeApplication {
     public CommandLineRunner commandLineRunner (EmployeeDao theEmployeeDao){
         return runner ->{
 
-            System.out.println("***OPERATIONS***");
-            System.out.println("1. Save Employee ");
-            System.out.println("2. Find Employee by ID ");
-            System.out.println("3. Find Employee by contact no. ");
-            System.out.println("4. Details of all Employees ");
-            System.out.println("5. Update any employee by ID");
-            System.out.println("6. Delete Employee ");
-            System.out.print("Enter the method number from : ");
-            int opt = sc.nextInt();
-            switch (opt){
-                case 1:save(theEmployeeDao);break;
-                case 2:findById(theEmployeeDao);break;
-                case 3:findByContactNO(theEmployeeDao);break;
-                case 4:fetchAll(theEmployeeDao);break;
-                case 5:updateById(theEmployeeDao);break;
-                case 6:deleteById(theEmployeeDao);break;
-                default: System.out.println("Invalid option");
-            }
+          for (;;){
+              System.out.println("***OPERATIONS***");
+              System.out.println("1. Save Employee ");
+              System.out.println("2. Find Employee by ID ");
+              System.out.println("3. Find Employee by contact no. ");
+              System.out.println("4. Details of all Employees ");
+              System.out.println("5. Update any employee by ID");
+              System.out.println("6. Delete Employee ");
+              System.out.println("7. Exit ");
+              System.out.print("Enter the method number from : ");
+              int opt = sc.nextInt();
+              switch (opt){
+                  case 1:save(theEmployeeDao);break;
+                  case 2:findById(theEmployeeDao);break;
+                  case 3:findByContactNO(theEmployeeDao);break;
+                  case 4:fetchAll(theEmployeeDao);break;
+                  case 5:updateById(theEmployeeDao);break;
+                  case 6:deleteById(theEmployeeDao);break;
+                  case 7:{
+                      System.out.println("Thanks for Visiting..!");
+                      System.exit(0);
+                  }
+                  default: System.out.println("Invalid option");
+              }
+          }
 
         };
     }
