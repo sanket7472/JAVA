@@ -9,12 +9,14 @@ import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
 import java.util.Scanner;
 
 @Repository
 public class LaptopImpl implements LaptopDAO {
     Scanner sc = new Scanner(System.in);
-    EntityManager theManager;
+
+    private final EntityManager theManager;
 
     @Autowired
     public LaptopImpl(EntityManager theManager) {
@@ -106,6 +108,13 @@ public class LaptopImpl implements LaptopDAO {
             theManager.remove(found);
             System.out.println("Laptop removed successfully..!");
         }
+
+    }
+
+    @Override
+    public List<Laptop> fetchAll() {
+        Query q = theManager.createQuery("select l from Laptop l");
+        return q.getResultList();
 
     }
 }
