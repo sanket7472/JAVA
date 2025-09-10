@@ -7,6 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import java.util.List;
 import java.util.Scanner;
 
 @SpringBootApplication
@@ -56,6 +57,16 @@ public class LaptopApplication {
         System.out.println("Enter laptop ID to delete :");
         theLaptopDAO.removeById(sc.nextInt());
     }
+    public void fetchAll(LaptopDAO theLaptopDAO){
+        List<Laptop> lap= theLaptopDAO.fetchAll();
+        if (lap.size()!=0){
+            for (Laptop emp : lap) {
+                System.out.println(emp);
+            }
+        }else{
+            System.out.println("No Lapstops in the DB");
+        }
+    }
     @Bean
     public CommandLineRunner commandLineRunner(LaptopDAO theLaptopDAO){
       return runner ->{
@@ -66,7 +77,8 @@ public class LaptopApplication {
                 System.out.println("3. Find Laptop by IMEI no ");
                 System.out.println("4. Update laptop Details ");
                 System.out.println("5. Delete Laptop ");
-                System.out.println("6. Exit ");
+                System.out.println("6. Fetch all Laptop ");
+                System.out.println("7. Exit ");
                 System.out.print("Enter Option :");
                 int opt = sc.nextInt();
                 sc.nextLine();
@@ -76,7 +88,13 @@ public class LaptopApplication {
                     case 3:findByImei(theLaptopDAO);break;
                     case 4:updateByID(theLaptopDAO);break;
                     case 5:delete(theLaptopDAO);break;
-                    case 6:System.exit(0);
+                    case 6:fetchAll(theLaptopDAO);break;
+                    case 7:{
+                        System.out.println("Thanks for Visiting..!");
+                        System.exit(0);
+                    }
+
+
                     default:System.out.println("Enter Valid Option ");
                 }
 
