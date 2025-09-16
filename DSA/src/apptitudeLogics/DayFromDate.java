@@ -27,7 +27,6 @@ public class DayFromDate {
 		case 5: System.out.println("FRIDAY");break;
 		case 6: System.out.println("SATURDAY");break;
 		}
-		
 	}
 	public static int[] returnDate(String date) {
 		String dy = date.substring(0, 2);
