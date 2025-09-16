@@ -8,7 +8,6 @@ public class DayFromDate {
 	 * 3) add century code
 	 * 4) add year
 	 * 5) add year/4
-	 * 
 	 * 6) find sum%7 
 	 * compare with day code and return the day
 	 * */
