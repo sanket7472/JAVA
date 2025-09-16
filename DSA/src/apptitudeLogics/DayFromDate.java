@@ -1,7 +1,6 @@
 package apptitudeLogics;
 
 public class DayFromDate {
-
 	/* logic 
 	 * steps -> take sum
 	 * 1) add the day
