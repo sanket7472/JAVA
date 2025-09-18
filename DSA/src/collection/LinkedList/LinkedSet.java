@@ -35,6 +35,7 @@ public class LinkedSet extends LinkedList {
 			if (!contains(head.val)) {
 				return super.addNode(head.val);
 			}
+			
 			head = head.next();
 		}
 		return true;
