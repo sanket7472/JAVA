@@ -9,6 +9,7 @@ public class Jugad {
 		 * but their is a bug in hashCode method of String class 
 		 * hashcode method gives same hashcode for Strings "FB" and "Ea"
 		 * */
+		
 		String s1 = "FB";
 		String s2 = "Ea";
 		System.out.println(s1.hashCode());
