@@ -10,6 +10,7 @@ public class Jugad {
 		 * hashcode method gives same hashcode for Strings "FB" and "Ea"
 		 * */
 		
+		
 		String s1 = "FB";
 		String s2 = "Ea";
 		System.out.println(s1.hashCode());
