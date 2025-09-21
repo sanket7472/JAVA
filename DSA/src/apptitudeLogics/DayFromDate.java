@@ -39,6 +39,7 @@ public class DayFromDate {
 	public static String returnmonth(String mon) {
 		mon = mon.toLowerCase();
 		
+		
 		switch (mon) {
 		case "jan": return "01";
 		case "feb": return "02";
