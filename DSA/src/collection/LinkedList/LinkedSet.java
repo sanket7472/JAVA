@@ -36,6 +36,7 @@ public class LinkedSet extends LinkedList {
 				return super.addNode(head.val);
 			}
 			
+			
 			head = head.next();
 		}
 		return true;
