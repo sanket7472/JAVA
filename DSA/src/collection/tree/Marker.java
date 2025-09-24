@@ -15,7 +15,7 @@ public class Marker implements Comparable<Marker>{
 	String color;
 	double price;
 	
-	Marker(String color,double price){
+	public Marker(String color,double price){
 		this.color = color;
 		this.price=price;
 	}
