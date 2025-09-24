@@ -28,17 +28,23 @@ public class Marker implements Comparable<Marker>{
 	
 
 	// compare according to price
+//	@Override
+//	public int compareTo(Marker obj) {
+//		if(this.price>obj.price) {
+//			return 1;
+//		}
+//		else if(this.price<obj.price) {
+//			return -1;
+//		}else {
+//			return 0;
+//		}
+//		
+//	}
 	@Override
 	public int compareTo(Marker obj) {
-		if(this.price>obj.price) {
-			return 1;
-		}
-		else if(this.price<obj.price) {
-			return -1;
-		}else {
-			return 0;
-		}
-		
+		return (int)(this.price-obj.price);
+		// for desending 
+		// return (int)(obj.price-this.price);
 	}
 	
 	
