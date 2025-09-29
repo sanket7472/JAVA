@@ -40,11 +40,20 @@ public class Marker implements Comparable<Marker>{
 //		}
 //		
 //	}
+//	@Override
+//	public int compareTo(Marker obj) {
+//		return (int)(this.price-obj.price);
+//		// for desending 
+//		// return (int)(obj.price-this.price);
+//	}
+	
+	// for comparing according to color of marker 
+	// we use compareTo() method of String class
 	@Override
 	public int compareTo(Marker obj) {
-		return (int)(this.price-obj.price);
-		// for desending 
-		// return (int)(obj.price-this.price);
+		return this.color.compareTo(obj.color);
+		// for reverse (desending z-a)
+		// return obj.color.compareTo(this.color);
 	}
 	
 	
